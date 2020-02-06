@@ -1,0 +1,49 @@
+{
+    "title": "Learning Naturalistic Structure: Preprocessed fMRI dataset",
+    "identifier": {
+        "identifier": "https://doi.org/10.5281/zenodo.3647610",
+        "identifierSource": "DOI"
+    },
+    "creators": [
+        {
+            "name": "DuPre, Elizabeth",
+            "orcid": "0000-0003-1358-196X"
+        }
+    ],
+    "description": "<p>This data was obtained from OpenNeuro as ds001545. We would like to thank the authors for their generosity in sharing their data, and we point interested users towards their paper describing its acquisition:</p>\n\n<p>&gt; Aly M, Chen J, Turk-Browne NB, &amp; Hasson U (2018). Learning naturalistic temporal structure in the posterior medial network. Journal of Cognitive Neuroscience, 30(9): 1345-1365.</p>\n\n<p><br>\nExperimental design<br>\n-------------------</p>\n\n<p>In this dataset, subjects were scanned while watching repeated presentations of intact and scrambled clips from Wes Anderson&#39;s 2014 film, _The Grand Budapest Hotel_. Scrambled clips were presented in either a &#39;fixed&#39; (i.e., consistent scrambling from run to run) or &#39;random&#39; (i.e., random scrambling from run to run) condition. An overview of the experimental design is shown in this figure, reproduced from Aly and colleagues (2018):</p>\n\n<p>![experimental_design][1]</p>\n\n<p>Preprocessing<br>\n-------------</p>\n\n<p>After downloading from OpenNeuro using [DataLad](https://www.datalad.org/), data was preprocessed using [fMRIPrep 1.5.0rc1](https://fmriprep.readthedocs.io). A complete transcript of the fMRIPrep processing is available as a README file in the repository. Post-processing was performed using [Nilearn](http://nilearn.github.io). Briefly, functional files were masked with the fMRIPrep-derived brain mask and trimmed to discard non-steady state volumes. Please see the README for further details.</p>\n\n<p><br>\n&nbsp; [1]: https://www.mitpressjournals.org/na101/home/literatum/publisher/mit/journals/content/jocn/2018/jocn.2018.30.issue-9/jocn_a_01308/20180730/images/large/01308f01c.jpeg</p>",
+    "types": [],
+    "version": "0.1.0",
+    "licenses": [
+        {
+            "id": "other-pd"
+        }
+    ],
+    "keywords": [
+        "canadian-open-neuroscience-platform",
+        "processed-fmri"
+    ],
+    "distributions": {
+        "format": "txt",
+        "size": 15461,
+        "unit": {
+            "value": "B"
+        },
+        "access": "https://zenodo.org/record/3647611"
+    },
+    "extraProperties": [
+        {
+            "category": "subjects",
+            "values": [
+                {
+                    "value": null
+                }
+            ]
+        },
+        {
+            "category": "files",
+            "values": {
+                "value": "428"
+            }
+        }
+    ]
+}
